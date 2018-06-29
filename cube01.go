@@ -1,1 +1,1 @@
-cube1
+package cube
