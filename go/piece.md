@@ -99,16 +99,18 @@ func OutResponse(v interface{}) (err error) {
 ## Struct Conventions
 [github opensource tool: fatih/structs](https://github.com/fatih/structs)
 
-// Create a new struct type:\
+// Create a new struct type:
 s := structs.New(server)
-
-m := s.Map()              // Get a map[string]interface{}\
-v := s.Values()           // Get a []interface{}\
-f := s.Fields()           // Get a []*Field\
-n := s.Names()            // Get a []string\
-f := s.Field(name)        // Get a *Field based on the given field name\
-f, ok := s.FieldOk(name)  // Get a *Field based on the given field name\
-n := s.Name()             // Get the struct name\
-h := s.HasZero()          // Check if any field is initialized\
+> m := s.Map()              // Get a map[string]interface{}
+v := s.Values()           // Get a []interface{}
+f := s.Fields()           // Get a []*Field
+n := s.Names()            // Get a []string
+f := s.Field(name)        // Get a *Field based on the given field name
+f, ok := s.FieldOk(name)  // Get a *Field based on the given field name
+n := s.Name()             // Get the struct name
+h := s.HasZero()          // Check if any field is initialized
 z := s.IsZero()           // Check if all fields are initialized
 
+jess
+sda
+asdsa
